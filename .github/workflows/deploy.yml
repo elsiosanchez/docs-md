@@ -29,12 +29,12 @@ jobs:
           cache: pnpm
 
       - name: Install Deps
-        run: pnpm install --frozen-lockfile
+        run: yarn install --frozen-lockfile
 
       - name: Build Blog
         env:
           NODE_OPTIONS: --max_old_space_size=8192
-        run: pnpm run build:webpack
+        run: yarn build:vite
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
