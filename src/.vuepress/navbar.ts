@@ -7,21 +7,7 @@ export const enNavbarConfig = navbar([
     icon: "profile",
     prefix: "/about/",
     children: [
-      { text: "Nosotros", icon: "software", link: "", activeMatch: "^/about/$" },
-      {
-        text: "Noticias",
-        prefix: "news/",
-        children: [
-          "2023-01-01-adempiere-394",
-        ],
-      },
-      {
-        text: "Historia",
-        children: [
-          "the-beginning",
-        ],
-      },
-      
+      { text: "Nosotros", icon: "software", link: "", activeMatch: "^/about/$" }
     ],
   },
   {
@@ -29,18 +15,7 @@ export const enNavbarConfig = navbar([
     icon: "engine",
     prefix: "/product/",
     children: [
-      { text: "Producto", icon: "engine", link: "", activeMatch: "^/product/$" },
-      "services" ,
-      
-      {
-        text: "Tecnología",
-        children: [
-          "technology",
-          "business-process",
-          "benefits",
-          "source-code",
-        ],
-      },
+      { text: "Producto", icon: "engine", link: "", activeMatch: "^/product/$" }
     ],
   },
   {
@@ -48,53 +23,7 @@ export const enNavbarConfig = navbar([
     icon: "creative",
     prefix: "/docs/",
     children: [
-      { text: "ADempiere Estándar", link: "", icon: "note", activeMatch: "^/docs/$" },
-      {
-        text: "Gestión Básica",
-        children: [
-          "basic-rules/login",
-          "basic-rules/user-interface",
-          "basic-rules/icons-interface",
-          "basic-rules/toolbar",
-          "basic-rules/quick-access",
-          "basic-rules/props",
-        ],
-      },
-      {
-        text: "Datos Maestros",
-        children: [
-          "master-data/business-partner",
-          "master-data/product",
-          "master-data/warehouse",
-          "master-data/reports"
-        ],
-      },
-      {
-        text: "Gestión de Materiales",
-        children: [
-          "material-management/inventory-move",
-          "material-management/internal-use-inventory",
-          "material-management/physical-inventory",
-          "material-management/ldm",
-          "material-management/replenishment",
-        ],
-      },
-      {
-        text: "Verticales de Negocio",
-        children: [
-          "verticals/fap",
-          "verticals/investment-and-loan",
-        ],
-      },
-      {
-        text: "Localización Venezuela",
-        children: [
-          "lve/document-utility",
-          "lve/procedures",
-          "lve/report",
-          "lve/standard-coding",
-        ],
-      },
+      { text: "ADempiere Estándar", link: "", icon: "note", activeMatch: "^/docs/$" }
     ],
   },
   {
@@ -108,10 +37,6 @@ export const enNavbarConfig = navbar([
         link: "",
         activeMatch: "^/community/$",
       },
-      {
-        text: "Comunidad de ADempiere ERP",
-        children: ["code-of-conduct", "duties-and-rigths"],
-      },
     ],
   },
   {
@@ -124,22 +49,7 @@ export const enNavbarConfig = navbar([
         icon: "software",
         link: "",
         activeMatch: "^/downloads/$",
-      },
-      {
-        text: "Binarios de Aplicaciones",
-        children: ["docker", "binary"],
-      },
-      {
-        text: "Actualizaciones",
-        children: [
-          "updates/", 
-          "updates/rs-5.x", 
-          "updates/rs-4.x",
-          "updates/rs-3.x",
-          "updates/rs-2.x",
-          "updates/rs-1.x"
-        ],
-      },
+      }
     ],
   },
 ]);
