@@ -1,8 +1,13 @@
 ---
-title: Algo de Historia
-category: Historia
+title: Nosotros
+icon: profile
+category: Nosotros
 star: 9
 sticky: 9
 tag:
-article: false
+  - Servicios
+  - Nosotros
+  - Noticias
+article: true
 ---
+

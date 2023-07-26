@@ -1,5 +1,5 @@
 ---
-title: Quiénes Somos?
+title: ¿Quiénes Somos?
 icon: group
 category: Comunidad
 star: 9
@@ -9,7 +9,7 @@ tag:
 article: false
 ---
 
-## Quiénes Somos?
+## ¿Quiénes Somos?
 
 La comunidad de ADempiere está formada por varias categorías de personas, y estamos seguros de que debe encajar en al menos una de ellas. Hay colaboradores, desarrolladores, evaluadores, escritores, usuarios, así como empresas, autoridades, expertos, novatos y estudiantes. También hay un Consejo de fideicomisarios para ser responsables de esta comunidad y el bienestar del proyecto. Cada comunidad tiene su propia historia y cultura. Esta comunidad en particular tiene sus raíces dentro del [proyecto Compiere SourceForge](http://sf.net/projects/compiere) en los últimos 3 años. Comenzamos como usuarios e implementadores de este gran proyecto de software, y comenzamos a progresar a pasos agigantados en nuestra propia capacidad para dominarlo e incluso extenderlo para varios usuarios finales.
 
