@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - experimental
+      - gh-pages
 
 jobs:
   deploy-gh-pages:
