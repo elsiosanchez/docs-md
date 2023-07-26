@@ -4,9 +4,9 @@ import theme from "./theme";
 import { path } from "@vuepress/utils";
 
 export default defineUserConfig({
-  alias: {
-    "@Releases": path.resolve(__dirname, "components/Releases.vue"),
-  },
+  // alias: {
+  //   "@Releases": path.resolve(__dirname, "components/Releases.vue"),
+  // },
   dest: "dist",
 
   head: [

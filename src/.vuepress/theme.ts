@@ -3,7 +3,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbarConfig, esNavbarConfig } from "./navbar";
 
 export default hopeTheme({
-  hostname: "https://docs-md.erpya.com",
+  hostname: "https://elsiosanchez.github.io/docs-md/",
 
   author: {
     name: "",
