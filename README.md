@@ -10,7 +10,7 @@ The collection includes a number of books covering the main topics of:
 
 - Functional Guide (**Generated automatically from ADempiere**)
 
-# More References
+# More References.
 
 - The official page is in: https://erpya.com
 - The official Wiki is in: http://docs.erpya.com
